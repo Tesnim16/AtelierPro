@@ -1,0 +1,371 @@
+h1 {
+    color: white;
+    text-shadow: 2px 2px 0px #333;
+    transition: all 0.5s ease-in-out;
+  }
+  h1:hover {
+    color: thistle;
+  }
+
+h2 {
+  margin-bottom: 15px;
+  transition: all 0.5s ease-in-out;
+}  
+
+h2:hover {
+  color: steelblue;
+  
+}
+  a {
+    margin: 20px;
+    text-decoration: none;
+    color: skyblue;
+    text-shadow: 2px 2px 0px #333;
+  }
+  body {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #Accueil {
+    padding-top: 75px;
+  }
+  
+  #Financement {
+    padding-top: 75px;
+  }
+  
+  #Services {
+    padding-top: 75px;
+  }
+
+  #Correspondance {
+    padding-top: 75px;
+  }
+
+  #Sports {
+    padding-top: 75px;
+  }
+
+  p {
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+  --scroll-behavior: smooth;
+}
+
+.ordered-list-service {
+  list-style-type: upper-roman;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 1px;
+  margin-top: 5px;
+}
+
+.container-service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+}
+
+.Service {
+  background-color: lavender;
+  border: 1px solid midnightblue;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.25);
+  transition: all 1s ease-in-out;
+}
+
+.Service:hover {
+  transform: scale(105%) translateY(-10px);
+  border-radius: 16px;
+  background-color: #333;
+  color: lightgrey;
+}
+
+.Service-text {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.container-sport {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.Judo {
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid midnightblue;
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+  color: lightgrey;
+  transition: all 1s ease-in-out;
+}
+
+.Judo p{
+  transition: all 1s ease-in-out;
+  padding: 15px;
+  text-align: center;
+  color: lightgrey;
+}
+
+.Judo:hover {
+  transform: scale(105%) translateY(-10px);
+  opacity: 80%;
+  border-radius: 16px;
+  background-color: rgb(208, 208, 78);
+  color: black;
+}
+
+.Judo:hover p {
+  color: black;
+}
+
+.Natation {
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid midnightblue;
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+  transition: all 1s ease-in-out;
+  color: lightgrey;
+}
+
+.Natation p{
+  transition: all 1s ease-in-out;
+  padding: 15px;
+  text-align: center;
+  color: lightgrey;
+}
+
+.Natation:hover {
+  transform: scale(105%) translateY(-10px);
+  opacity: 80%;
+  border-radius: 16px;
+  background-color: #bedaeb;
+  color: black;
+}
+
+.Natation:hover p {
+  color: black;
+}
+
+.Rugby p{
+  transition: all 1s ease-in-out;
+  padding: 15px;
+  text-align: center;
+  color: lightgrey;
+}
+
+.Rugby {
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.25);
+  border: 1px solid midnightblue;
+  background-color: #333;
+  color: lightgrey;
+  padding: 15px;
+  text-align: center;
+  transition: all 1s ease-in-out;
+}
+
+.Rugby:hover p {
+  color: black;
+}
+
+.Rugby:hover {
+  transform: scale(105%) translateY(-10px);
+  opacity: 80%;
+  border-radius: 16px;
+  background-color: lightgreen;
+  color: black;
+}
+
+.container-contact {
+  gap: 20px;
+  padding: 10px;
+}
+
+.Contact-mail1 {
+  font-size: 24px;
+  color: darkgray;
+  text-shadow: none;
+  transition: all 1s ease-in-out;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+}
+
+.Contact-mail1:hover {
+  color: rgb(165, 105, 220);
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05) translateX(35px);
+}
+
+.Contact-mail1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: lightblue;
+  transition: width 0.5s ease-in-out;
+}
+
+.Contact-mail1:hover::after {
+  width: 18.5rem;
+}
+
+.Contact-mail2 {
+  font-size: 24px;
+  color: darkgray;
+  text-shadow: none;
+  transition: all 1s ease-in-out;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+}
+
+.Contact-mail2:hover {
+  color: rgb(165, 105, 220);
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05) translateX(35px);
+}
+
+.Contact-mail2::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: lightblue;
+  transition: width 0.5s ease-in-out;
+}
+
+.Contact-mail2:hover::after {
+  width: 16.75rem;
+}
+
+.Contact-mail3 {
+  font-size: 24px;
+  color: darkgray;
+  text-shadow: none;
+  transition: all 1s ease-in-out;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+}
+
+.Contact-mail3:hover {
+  color: rgb(165, 105, 220);
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05) translateX(35px);
+}
+
+.Contact-mail3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: lightblue;
+  transition: width 0.5s ease-in-out;
+}
+
+.Contact-mail3:hover::after {
+  width: 14.5rem;
+}
+
+.Contact-mail4 {
+  font-size: 24px;
+  color: darkgray;
+  text-shadow: none;
+  transition: all 1s ease-in-out;
+  display: flex;
+  position: relative;
+  text-decoration: none;
+}
+
+.Contact-mail4:hover {
+  color: rgb(165, 105, 220);
+  text-shadow: 2px 2px 2px rgba(255, 255, 255, 0.2);
+  transform: scale(1.05) translateX(35px);
+}
+
+.Contact-mail4::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 2px;
+  background-color: lightblue;
+  transition: width 0.5s ease-in-out;
+}
+
+.Contact-mail4:hover::after {
+  width: 20rem;
+}
+
+.Accueil-text {
+  color: white;
+  display: grid;
+  background-color:#333;
+  border: 1px solid midnightblue;
+  padding: 25px;
+  align-items: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.25);
+  transition: all 1s ease-in-out;
+  scale: 90%;
+}
+
+.Accueil-text:hover {
+  transform: scale(110%) translateY(-5px);
+  opacity: 80%;
+  border-radius: 16px;
+  background-color: lavender;
+  color: black
+}
+
+.Financement-text {
+  color: white;
+  display: grid;
+  background-color:#333;
+  border: 1px solid midnightblue;
+  padding: 25px;
+  align-items: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.25);
+  transition: all 1s ease-in-out;
+  scale: 90%;
+}
+
+.Financement-text:hover {
+  transform: scale(110%) translateY(-5px);
+  opacity: 80%;
+  border-radius: 16px;
+  background-color: lavender;
+  color: black;
+}
+
+.more-judo {
+  color:#333;
+  text-shadow: none;
+}
+
+.more-natation {
+  color:#333;
+  text-shadow: none;
+}
+
+.more-rugby {
+  color:#333;
+  text-shadow: none;
+}

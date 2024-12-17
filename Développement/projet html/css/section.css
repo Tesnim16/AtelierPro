@@ -1,0 +1,30 @@
+.section {
+    height: 65vh;
+    background-image: url(/images/maison.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 {
+    text-align: center;
+}
+
+.section2 {
+    text-align: center;
+}
+
+.section3 {
+    text-align: center;
+}
+
+.section4 {
+    text-align: center;
+  }
+
+.section5 {
+    text-align: center;
+}
+
+.section6 {
+    text-align: center;
+}

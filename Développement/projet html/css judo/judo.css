@@ -1,0 +1,439 @@
+h1  {
+    color: whitesmoke; 
+    }
+    a {
+        margin: 20px;
+        text-decoration: none;
+        color: rgb(0, 0, 0) ;
+    }
+    
+    html{
+        height: 100%;
+        scroll-behavior: smooth;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Bokor&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    
+    body{
+        
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+        
+        background-size: cover; /* Couvre tout l'écran */
+        background-position: center; /* Centre l'image */
+        background-repeat: no-repeat;
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      
+      
+      header {
+        background-color: #333;
+      }
+      
+      .navbar {
+        background-color: midnightblue;
+        opacity: 50%;
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0.5rem 0.5rem;
+        left: 0;
+        right: 0;
+        top: 0;
+      }
+      
+      .nav-links {
+        list-style-type: none;
+        display: flex;
+      }
+      
+      .nav-links li {
+        margin: 0 1rem;
+      }
+      
+      .nav-links a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 1.1rem;
+        transition: color 0.3s ease;
+      }
+      
+      .nav-links a:hover {
+        color:rosybrown;
+        text-shadow: 1rem, 1rem, 1rem black;
+      }
+      
+      .bar-class {
+        display: none;
+        flex-direction: column;
+        cursor: pointer;
+        width: 25px;
+        height: 20px;
+        justify-content: space-between;
+      }
+      
+      .bar-class .bar {
+        background-color: #fff;
+        height: 4px;
+        width: 100%;
+      }
+    
+    .navbar .logo img{
+        height: auto;
+        width: 60px;
+    
+    }  
+      @media screen and (max-width: 768px) {
+        .nav-links {
+          display: none;
+          width: 100%;
+          flex-direction: column;
+          background-color: #333;
+          position: absolute;
+          top: 60px;
+          left: 0;
+          padding: 1rem;
+        }
+      
+        .nav-links.active {
+          display: flex;
+        }
+      
+        .nav-links li {
+          margin: 1rem 0;
+        }
+      
+        .bar-class {
+          display: flex;
+        }
+      }
+.M2L div{
+    text-indent: 25%;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+
+
+.historiquedusport1 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 500px;
+  position: absolute;
+  left: 10px;
+  top: 75px; 
+  border-radius: 10px;
+}
+.historiquedusport1-service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.historiquedusport1 {
+  background-color: lavender;
+  border: 1px solid midnightblue;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.25);
+  transition: all 1s ease-in-out;
+}
+.historiquedusport1:hover {
+  transform: scale(105%) translateY(-10px);
+  border-radius: 16px;
+  background-color: #333;
+  color: lightgrey;
+}
+
+
+
+
+
+
+
+.historiquedusport2 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 500px;
+  position: absolute;
+  right: 20px;  
+  top: 360px;
+  border-radius: 10px; 
+}
+.historiquedusport2-service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.historiquedusport2 {
+  background-color: lavender;
+  border: 1px solid midnightblue;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.25);
+  transition: all 1s ease-in-out;
+}
+.historiquedusport2:hover {
+  transform: scale(105%) translateY(-10px);
+  border-radius: 16px;
+  background-color: #333;
+  color: lightgrey;
+}
+
+
+
+
+.reglesdusport1 {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 500px;
+  position: absolute;
+  left: 150px; 
+  top: 600px; 
+  border-radius: 10px;
+}
+.reglesdusport1-service {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+.reglesdusport1 {
+  background-color: lavender;
+  border: 1px solid midnightblue;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 4px 8px 12px rgba(0, 0, 0, 0.25);
+  transition: all 1s ease-in-out;
+  transform: scale(90%);
+}
+.reglesdusport1:hover {
+  transform: scale(105%) translateY(-10px);
+  border-radius: 14px;
+  background-color: #333;
+  color: lightgrey;
+}
+
+
+
+
+.catégories {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 1180px; 
+  margin-left: 3px;
+}
+.poidshomme {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 30px; 
+  margin-left: 175px;
+}
+.superlegersh {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 35px;  /*difference de 20 à chaque fois pour une meilleur homogenéité*/
+  margin-left: 255px; /*difference de 50 à chaque fois pour une meilleur homogenéité*/ 
+}
+.legersh {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 55px; 
+  margin-left: 325px;
+}
+.milegersh {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 75px; 
+  margin-left: 375px;
+}
+.moyensh {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 95px; 
+  margin-left: 425px;
+}
+.milourdsh {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 115px; 
+  margin-left: 475px;
+}
+.lourdsh {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 135px; 
+  margin-left: 525px;
+}
+.superlourdsh {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 155px; 
+  margin-left: 565px;
+}
+/* separation homme/femme */
+.poidsfemme {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 30px; 
+  margin-left: 775px;
+}
+.superlegersf {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 35px;  /*difference de 20*/
+  margin-left: 855px; /*difference de 50*/ 
+}
+.legersf {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 55px; 
+  margin-left: 905px;
+}
+.milegersf {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 75px; 
+  margin-left: 955px;
+}
+.moyensf {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 95px; 
+  margin-left: 1005px;
+}
+.milourdsf {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 115px; 
+  margin-left: 1055px;
+}
+.lourdsf {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 135px; 
+  margin-left: 1110px;
+}
+.superlourdsf {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 155px; 
+  margin-left: 1165px;
+}
+/* séparation femme/Ceinture */
+.ceinture {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 165px; /*10 puis 20 à chaque fois*/
+  margin-left: 175px; /*50 en moins (comme en arrière)*/
+}
+.ceintureblanche {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 175px; 
+  margin-left: 225px;
+}
+.ceinturejauneb {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 195px; 
+  margin-left: 275px;
+}
+.ceinturejaune {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 215px; 
+  margin-left: 325px;
+}
+.ceintureorange {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 235px; 
+  margin-left: 375px;
+}
+.ceintureverte {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 255px; 
+  margin-left: 425px;
+}
+.ceinturebleu {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 275px; 
+  margin-left: 475px;
+}
+.ceinturemarron {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 295px; 
+  margin-left: 525px;
+}
+.ceinturenoire {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  width: 250px;
+  position: absolute;
+  top: 315px; 
+  margin-left: 575px;
+}

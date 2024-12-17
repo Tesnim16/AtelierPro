@@ -1,0 +1,53 @@
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Tableau élégant */
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: center;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.styled-table thead tr {
+    background-color: gray;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tr {
+    transition: all 0.5s ease-in-out;
+}
+
+.styled-table tr:hover {
+    color: rgb(29, 80, 127);
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid black;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+.styled-table tbody tr:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.styled-table .active-row {
+    color: black;
+}
